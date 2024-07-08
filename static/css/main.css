@@ -5,6 +5,8 @@
 	--main-link-border: #e1e1e1;
 	--main-link-border-hover: #1d1d1d;
 	--hr-article-break: #f0f0f0;
+	--blockquote-border: #000000;
+	--blockquote-background: ;
 }
 
 html {
@@ -34,7 +36,7 @@ body {
 	text-align: center;
 }
 
-.page-content p, .page-content ul, .page-content ol, .page-content dl, .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6, .page-content time, .page-content pre  {
+.page-content p, .page-content ul, .page-content ol, .page-content dl, .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6, .page-content time, .page-content pre, .page-content blockquote  {
 	max-width: 650px;
 	margin: 0 auto;
 }
@@ -98,4 +100,9 @@ h2.post-title a {
 
 h2.post-title a:hover {
 	border: none;
+}
+
+blockquote {
+	border-left: 5px solid var(--blockquote-border);
+	background-color: var(--blockquote-background);
 }
