@@ -42,10 +42,14 @@ body {
 
 nav ul {
 	list-style-type: none;
+	padding: 0;
 }
 
 nav ul li {
 	display: inline;
+	margin-right: 0.2em;
+	line-height: 2em;
+	white-space: no-wrap;
 }
 
 .page-content p, .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6, .page-content time, .page-content pre, .page-content blockquote {
