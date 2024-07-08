@@ -13,7 +13,7 @@
 		{{ range $list  }}
 		<li class="h-entry">
 			{{ if .Title }}
-			<h2 class="p-name"><a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a></h3>
+			<h1 class="p-name post-title"><a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a></h1>
 				{{ end }}
 
 				<a href="{{ .Permalink }}" class="post-date u-url"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "Jan 2, 2006" }}</time> ∞</a>
