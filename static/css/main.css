@@ -38,7 +38,6 @@ body {
 
 .site-header a {
 	text-decoration: none;
-	border-bottom: none;
 }
 
 .site-header .profile_photo {
@@ -62,6 +61,8 @@ nav a {
 	border: 1px solid var(--navigation-button-border);
 	background-color: var(--navigation-button-background);
 	color: var(--navigation-text);
+	border-radius: 1em;
+	padding: 0.25em 0.5em;
 }
 
 nav a:hover {
