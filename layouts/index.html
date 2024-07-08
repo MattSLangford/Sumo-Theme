@@ -25,13 +25,13 @@
                             {{ $summary := replaceRE "\\[\\^.*?\\]" "" $summary }}
                             {{ $summary := replaceRE "\\n\\[\\^.*?\\]:.*" "" $summary }}
                             <p>{{ $summary | markdownify }}</p>
-                            <p><a class="read-more" href="{{ .Permalink }}">
+                            <p><a class="read-more" href="{{ .Permalink }}"><button>
                                 {{ if templates.Exists "partials/microhook-read-more-text.html" }}
                                 {{ partial "microhook-read-more-text.html" . }}
                                 {{ else }}
                                 Read More →
                                 {{ end }}
-                            </a></p>
+                            </button></a></p>
                         </div>
                     {{ else }}
                         <div class="e-content with-title">
