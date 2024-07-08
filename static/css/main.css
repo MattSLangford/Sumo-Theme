@@ -16,7 +16,7 @@ body {
 	line-height: 1.5;
 }
 
-.page-content {
+.page-content p, .page-content ul, .page-content ol, .page-content dl  {
 	max-width: 650px;
 	margin: 0 auto;
 }
