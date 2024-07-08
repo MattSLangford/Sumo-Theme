@@ -1,4 +1,5 @@
 :root {
+	--page-background: ;
 	--main-text: #1d1d1d;
 	--main-link: #000000;
 	--main-link-hover: #1d1d1d;
@@ -7,6 +8,8 @@
 	--hr-article-break: #f0f0f0;
 	--blockquote-border: #000000;
 	--blockquote-background: ;
+	--code-border: #e4e4e4;
+	--code-background: #fafafa;
 }
 
 html {
@@ -19,6 +22,7 @@ body {
 	line-height: 1.5;
 	margin: 0;
 	font-size: 18px;
+	background-color: var(page-background);
 }
 
 .site-header {
@@ -115,4 +119,9 @@ blockquote {
 	border-left: 8px solid var(--blockquote-border);
 	background-color: var(--blockquote-background);
 	font-size: 0.955em;
+}
+
+code {
+	background-color: var(--code-background);
+	border-color: var(--code-border);
 }
