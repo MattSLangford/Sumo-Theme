@@ -124,4 +124,7 @@ blockquote {
 code {
 	background-color: var(--code-background);
 	border-color: var(--code-border);
+	padding-left: 1em;
+	padding-right: 1em;
+	font-size: 0.955em;
 }
