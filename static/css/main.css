@@ -52,6 +52,7 @@ hr.article-break {
 
 time {
 	display: block;
+	opacity: 0.3;
 }
 
 time, a.post-date {
