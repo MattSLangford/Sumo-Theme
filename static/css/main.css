@@ -16,6 +16,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	line-height: 1.5;
 	margin: 0;
+	font-size: 18px;
 }
 
 .page-content p, .page-content ul, .page-content ol, .page-content dl, .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h5, .page-content time  {
