@@ -11,8 +11,6 @@
 	{{ end }}
 	{{ if templates.Exists "partials/microhook-description.html" }}
 	{{ partial "microhook-description.html" . }}
-	{{ else }}
-	<p class="description">{{ .Site.Params.itunes_description | safeHTML }}</p>
 	{{ end }}
 	{{ if templates.Exists "partials/microhook-navigation.html" }}
 	{{ partial "microhook-navigation.html" . }}
