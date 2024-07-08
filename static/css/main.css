@@ -11,6 +11,12 @@
 	--navigation-button-background-hover: #000000;
 	--navigation-text: #8c8c8c;
 	--navigation-text-hover: #f0f0f0;
+	--button-border: #e4e4e4;
+	--button-background: ;
+	--button-border-hover: #000000;
+	--button-background-hover: #000000;
+	--button-text: #8c8c8c;
+	--button-text-hover: #f0f0f0;
 	--hr-article-break: #f0f0f0;
 	--blockquote-border: #000000;
 	--blockquote-background: ;
@@ -153,6 +159,10 @@ a.post-date:hover {
 	opacity: 1;
 }
 
+a.read-more {
+	border: none;
+}
+
 h2.post-title {
 	color: var(--main-link);
 	margin-top: 0;
@@ -203,9 +213,9 @@ pre {
 }
 
 button {
-	border: 1px solid var(--navigation-button-border);
-	background-color: var(--navigation-button-background);
-	color: var(--navigation-text);
+	border: 1px solid var(--button-border);
+	background-color: var(--button-background);
+	color: var(--button-text);
 	border-radius: 1em;
 	padding: 0.25em 0.5em;
 	font-size: 0.9em;
@@ -213,9 +223,9 @@ button {
 }
 
 button:hover {
-	border-color: var(--navigation-button-border-hover);
-	background-color: var(--navigation-button-background-hover);
-	color: var(--navigation-text-hover);
+	border-color: var(--button-border-hover);
+	background-color: var(--button-background-hover);
+	color: var(--button-text-hover);
 }
 
 footer {
