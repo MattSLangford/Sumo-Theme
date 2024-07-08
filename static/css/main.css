@@ -9,7 +9,7 @@
 	--navigation-button-background: ;
 	--navigation-button-border-hover: #000000;
 	--navigation-button-background-hover: #000000;
-	--navigation-text: #1d1d1d;
+	--navigation-text: #8c8c8c;
 	--navigation-text-hover: #f0f0f0;
 	--hr-article-break: #f0f0f0;
 	--blockquote-border: #000000;
@@ -51,12 +51,12 @@ body {
 	margin: 0;
 }
 
-nav ul {
+.site-header nav ul {
 	list-style-type: none;
 	padding: 0;
 }
 
-nav ul li {
+.site-header nav ul li {
 	display: inline;
 	margin: 0 0.2em;
 	line-height: 2em;
@@ -72,7 +72,7 @@ nav ul li {
 	font-size: 0.9em;
 }
 
-nav a:hover {
+.site-header nav a:hover {
 	border-color: var(--navigation-button-border-hover);
 	background-color: var(--navigation-button-background-hover);
 	color: var(--navigation-text-hover);
