@@ -32,6 +32,10 @@ a:hover {
 	color: var(--main-link-color);
 }
 
+time {
+	display: block;
+}
+
 time, a.post-date {
 	text-transform: uppercase;
 	font-weight: 700;
