@@ -248,6 +248,7 @@ button:hover {
 
 a.footnote-ref {
 	color: var(footnote-super);
+	border: none;
 }
 
 .footnotes a.footnote-backref {
