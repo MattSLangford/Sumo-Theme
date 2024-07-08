@@ -24,7 +24,7 @@
                             {{ $summary := index $splitContents 0 }}
                             {{ $summary := replaceRE "\\[\\^.*?\\]" "" $summary }}
                             {{ $summary := replaceRE "\\n\\[\\^.*?\\]:.*" "" $summary }}
-                            {{ $summary | markdownify }}
+                            <p>{{ $summary | markdownify }}</p>
                             <p><a class="read-more" href="{{ .Permalink }}">
                                 {{ if templates.Exists "partials/microhook-read-more-text.html" }}
                                 {{ partial "microhook-read-more-text.html" . }}
