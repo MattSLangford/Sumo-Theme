@@ -107,5 +107,10 @@ h2.post-title a:hover {
 blockquote {
 	border-left: 8px solid var(--blockquote-border);
 	background-color: var(--blockquote-background);
-	font-size: 0.8em;
+	font-size: 0.955em;
+}
+
+ul, ol, dl {
+	padding-right: 0;
+	padding-left: 40px;
 }
