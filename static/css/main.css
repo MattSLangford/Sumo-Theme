@@ -23,7 +23,7 @@
 	--code-border: #e4e4e4;
 	--code-background: #fafafa;
 	--footnotes: #8c8c8c;
-	--footnote-super: #e4e4e4;
+	--footnote-super: #000000;
 }
 
 html {
@@ -247,7 +247,7 @@ button:hover {
 }
 
 a.footnote-ref {
-	color: var(footnote-super);
+	color: var(--footnote-super);
 	border: none;
 }
 
