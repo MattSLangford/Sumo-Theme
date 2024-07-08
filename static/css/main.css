@@ -1,4 +1,52 @@
+:root {
+	--main-text-color: #1d1d1d;
+	--main-link-color: #000000;
+	--main-link-color-hover: #1d1d1d;
+	--main-link-border-color: #e1e1e1;
+	--main-link-border-color-hover: #1d1d1d;
+}
+
+html {
+	color: var(--main-text-color);
+}
+
 .page-content {
 	max-width: 650px;
 	margin: 0 auto;
+}
+
+a {
+	color: var(--main-link-color);
+	text-decoration: none;
+	border-bottom: 2px solid var(--main-link-border-color);
+}
+
+a:hover {
+	border-color: var(--main-link-border-color-hover);
+	color: var(--main-link-color);
+}
+
+time, time a {
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+	opacity: 0.3;
+}
+
+time a:hover {
+	opacity: 1;
+}
+
+h2.post-title {
+	color: var(--main-link-color);
+}
+
+h2.post-title a {
+	text-decoration: none;
+	color: var(--main-link-color);
+	border: none;
+}
+
+h2.post-title a:hover {
+	border: none;
 }
