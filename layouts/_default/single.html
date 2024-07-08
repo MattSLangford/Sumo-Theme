@@ -6,7 +6,7 @@
   {{ end }}
 
   {{ if .Title }}
-  <h2 class="p-name">{{ .Title }}</h2>
+  <h1 class="p-name">{{ .Title }}</h1>
   {{ end }}
 
   {{ if .Params.reply_to_url }} <a href="{{ .Permalink }}" class="post-date u-url"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "Jan 2, 2006" }}</time> ∞</a>
