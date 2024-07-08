@@ -45,6 +45,7 @@ a.post-date:hover {
 
 h2.post-title {
 	color: var(--main-link-color);
+	margin-top: 0;
 }
 
 h2.post-title a {
