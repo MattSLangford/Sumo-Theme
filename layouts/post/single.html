@@ -18,9 +18,6 @@
   </header>
 
   <article class="post-content e-content">
-    {{ with .Params.audio }}
-      <script type="text/javascript" src="https://micro.blog/narration.js?url={{ . }}"></script>
-    {{ end }}
     {{ .Content }}
   </article>
 
