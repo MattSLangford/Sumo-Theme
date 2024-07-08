@@ -116,15 +116,15 @@ body {
 	margin: 0 auto;
 }
 
-h1 {
+.page-content h1 {
 	font-size: 2em;
 }
 
-h1.post-title {
+.page-content h1.post-title {
 	margin: 0 auto;
 }
 
-h1.post-title a {
+.page-content h1.post-title a {
 	border: none;
 }
 
