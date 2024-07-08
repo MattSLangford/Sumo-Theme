@@ -121,11 +121,25 @@ blockquote {
 	font-size: 0.95em;
 }
 
-code {
+p code, li code {
 	background-color: var(--code-background);
 	border: 1px solid var(--code-border);
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	font-size: 0.85em;
 	border-radius: 1em;
+}
+
+code {
+	white-space: pre-wrap;
+}
+
+pre {
+	background-color: var(--code-background);
+	border: 1px solid var(--code-border);
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	font-size: 0.85em;
+	border-radius: 1em;
+	overflow-x: auto;
 }
