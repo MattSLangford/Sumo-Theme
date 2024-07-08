@@ -225,7 +225,7 @@ pre {
 	border: none;
 }
 
-button {
+button, .conversation-on-mb {
 	border: 1px solid var(--button-border);
 	background-color: var(--button-background);
 	color: var(--button-text);
@@ -235,7 +235,7 @@ button {
 	font-weight: 500;
 }
 
-button:hover {
+button:hover, .conversation-on-mb:hover {
 	border-color: var(--button-border-hover);
 	background-color: var(--button-background-hover);
 	color: var(--button-text-hover);
@@ -253,6 +253,18 @@ a.footnote-ref {
 
 .footnotes a.footnote-backref {
 	border: none;
+}
+
+ul.reply-buttons {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul.reply-buttons li {
+	display: inline;
+	margin: 0 0.2em;
+	line-height: 2em;
+	white-space: no-wrap;
 }
 
 footer {
