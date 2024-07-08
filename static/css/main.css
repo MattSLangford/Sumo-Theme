@@ -119,7 +119,7 @@ a:hover {
 	color: var(--main-link);
 }
 
-without-title p:first-of-type {
+.without-title p:first-of-type {
 	margin-top: 0;
 }
 
