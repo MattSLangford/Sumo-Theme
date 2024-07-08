@@ -199,7 +199,7 @@ pre {
 }
 
 .post-nav a {
-	border-none;
+	border: none;
 }
 
 button {
@@ -224,8 +224,4 @@ footer {
 	margin-bottom: 2em;
 	opacity: 0.8;
 	font-size: 0.8em;
-}
-
-.post-nav a {
-	border-none;
 }
