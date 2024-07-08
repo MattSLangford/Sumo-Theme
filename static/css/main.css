@@ -23,6 +23,11 @@ body {
 	margin: 0 auto;
 }
 
+.page-content p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
 a {
 	color: var(--main-link);
 	text-decoration: none;
