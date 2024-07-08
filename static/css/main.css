@@ -19,17 +19,17 @@ body {
 	font-size: 18px;
 }
 
-header {
+.site-header {
 	margin-top: 1em;
 	text-align: center;
 }
 
-header a {
+.site-header a {
 	text-decoration: none;
 	border-bottom: none;
 }
 
-header .profile_photo {
+.site-header .profile_photo {
 	border-radius: 100%;
 	text-align: center;
 }
