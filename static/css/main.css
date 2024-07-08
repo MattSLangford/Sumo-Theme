@@ -120,7 +120,7 @@ h1 {
 	font-size: 2em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6 {
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
