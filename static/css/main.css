@@ -176,6 +176,10 @@ a.read-more {
 	border: none;
 }
 
+.post {
+	margin-bottom: 2em;
+}
+
 h2.post-title {
 	color: var(--main-link);
 	margin-top: 0;
