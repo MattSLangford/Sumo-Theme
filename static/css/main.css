@@ -233,6 +233,7 @@ button, .conversation-on-mb {
 	padding: 0.25em 0.5em;
 	font-size: 0.9em;
 	font-weight: 500;
+	cursor: pointer;
 }
 
 button:hover, .conversation-on-mb:hover {
