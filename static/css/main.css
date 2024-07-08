@@ -198,6 +198,10 @@ pre {
 	text-align: center;
 }
 
+.post-nav a {
+	border-none;
+}
+
 button {
 	border: 1px solid var(--navigation-button-border);
 	background-color: var(--navigation-button-background);
@@ -222,6 +226,6 @@ footer {
 	font-size: 0.8em;
 }
 
-footer .post-nav a {
+.post-nav a {
 	border-none;
 }
