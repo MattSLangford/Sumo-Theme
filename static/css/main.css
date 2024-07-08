@@ -120,8 +120,16 @@ h1 {
 	font-size: 2em;
 }
 
+h1.post-title {
+	margin: 0 auto;
+}
+
+h1.post-title a {
+	border: none;
+}
+
 .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6 {
-	margin-top: 1em;
+	margin-top: 2em;
 	margin-bottom: 1em;
 }
 
