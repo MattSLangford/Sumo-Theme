@@ -53,10 +53,13 @@ time, a.post-date {
 	text-transform: uppercase;
 	font-weight: 700;
 	border: none;
-	opacity: 0.5;
 }
 
-time, a.post-date:hover {
+a.post-date {
+	opacity: 0.3;
+}
+
+a.post-date:hover {
 	opacity: 1;
 }
 
