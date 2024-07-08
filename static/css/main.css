@@ -130,12 +130,12 @@ p code, li code {
 	border-radius: 1em;
 }
 
-code {
-	white-space: pre-wrap;
-}
 
 pre {
 	background-color: var(--code-background);
 	border-top: 1px solid var(--code-border);
 	border-bottom: 1px solid var(--code-border);
+	white-space: pre-wrap;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
