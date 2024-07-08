@@ -42,6 +42,7 @@
 
 </div>
 {{ if or (templates.Exists "partials/reply-by-email.html") (templates.Exists "partials/conversation-link.html") (templates.Exists "partials/plugin_tinylytics.html") (templates.Exists "partials/reply-on-mastodon.html")}}
+<hr>
 <ul class="reply-buttons">
   {{ if templates.Exists "partials/plugin_tinylytics.html" }}
   <li><button class="tinylytics_kudos">Kudos</button></li>
