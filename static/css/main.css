@@ -263,7 +263,7 @@ ul.reply-buttons {
 
 ul.reply-buttons li {
 	display: inline;
-	margin: 0 0.2em;
+	margin-right: 0.2em;
 	line-height: 2em;
 	white-space: no-wrap;
 }
