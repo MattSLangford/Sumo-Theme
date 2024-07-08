@@ -262,6 +262,7 @@ a.footnote-ref {
 
 ul.reply-buttons {
 	list-style-type: none;
+	padding-left: 20px;
 }
 
 ul.reply-buttons li {
