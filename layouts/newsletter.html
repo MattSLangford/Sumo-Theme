@@ -1,0 +1,93 @@
+<style>
+	a {
+		color: #1565C0;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	.microblog_permalink {
+		color: #1565C0;
+		font-size: 0.9em;
+		text-decoration: none;
+	}
+
+	.email-profile-photo {
+		border-radius: 80px;
+		vertical-align: middle;
+		max-width: 80px;
+	}
+
+	.microblog_footer {
+		border-top: 1px solid #1565C0;
+		padding-top: 5px;
+		margin-top: 5px;
+	}
+
+	img {
+		border-radius: 5px;
+		width: 100%;
+		height: auto;
+		max-width: 1000px;
+	}
+
+	.intro {
+		border-bottom: 1px solid #1565C0;
+		padding-bottom: 20px;
+	}
+
+	.post {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+</style>
+
+<div class="microblog_email">
+	<img src="{{ .Site.Author.avatar }}" width="80" height="80" alt="Profile icon" class="email-profile-photo">
+	<h2>{{ .Site.Title }}</h2>
+
+	{{ if gt (len .Intro) 0 }}
+	<div class="intro">
+		{{ .Intro }}
+	</div>
+	{{ end }}
+
+	{{ range .Pages }}
+	<div class="post">
+		<a href="{{ .Permalink }}" class="microblog_permalink">{{ .Date.Format "Jan 2, 2006" }} ↓</a>
+
+		{{ if .Title }}
+		<h3>{{ .Title }}</h3>
+		{{ end }}
+		{{ .Content }}
+
+		{{ if gt (len .Params.audio) 0 }}
+		<a href="{ .Permalink }">Audio</a>
+		{{ end }}
+
+		{{ if gt (len .Params.video) 0 }}
+		<a href="{ .Permalink }">Video</a>
+		{{ end }}
+	</div>
+	{{ end }}
+
+	<div class="microblog_footer">
+
+		<a href="{{ .Footer.UnsubscribeURL }}">Unsubscribe</a> <span class="microblog_divider">|</span>
+
+		{{ if eq (len .Pages) 1 }}
+		{{ with index .Pages 0 }}
+		<a href="{{ .Permalink }}">View in browser</a> <span class="microblog_divider">|</span>
+		{{ end }}
+		{{ end }}
+
+		<a href="{{ .Site.BaseURL }}">{{ .Site.Hostname }}</a>
+
+		{{ if gt (len .Footer.MailingAddress) 0 }}
+		<span class="microblog_divider">|</span> {{ .Footer.MailingAddress }}
+		{{ end }}
+
+	</div>
+
+</div>
