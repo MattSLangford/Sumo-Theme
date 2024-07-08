@@ -19,7 +19,7 @@ body {
 	font-size: 18px;
 }
 
-.page-content p, .page-content ul, .page-content ol, .page-content dl, .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h5, .page-content time  {
+.page-content p, .page-content ul, .page-content ol, .page-content dl, .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6, .page-content time, .page-content pre  {
 	max-width: 650px;
 	margin: 0 auto;
 }
@@ -32,12 +32,12 @@ body {
 a {
 	color: var(--main-link);
 	text-decoration: none;
-	border-bottom: 2px solid var(--main-link-border-color);
+	border-bottom: 2px solid var(--main-link-border);
 }
 
 a:hover {
 	border-color: var(--main-link-border-hover);
-	color: var(--main-link-color);
+	color: var(--main-link);
 }
 
 hr.article-break {
