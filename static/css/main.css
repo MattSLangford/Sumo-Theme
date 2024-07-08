@@ -22,6 +22,7 @@
 	--blockquote-background: ;
 	--code-border: #e4e4e4;
 	--code-background: #fafafa;
+	--footnotes: #8c8c8c;
 }
 
 html {
@@ -237,6 +238,11 @@ button:hover {
 	border-color: var(--button-border-hover);
 	background-color: var(--button-background-hover);
 	color: var(--button-text-hover);
+}
+
+.footnotes {
+	font-size: 0.85em;
+	color: var(--footnotes);
 }
 
 footer {
