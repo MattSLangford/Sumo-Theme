@@ -36,10 +36,17 @@ body {
 	text-align: center;
 }
 
-.page-content p, .page-content ul, .page-content ol, .page-content dl, .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6, .page-content time, .page-content pre, .page-content blockquote  {
+.page-content p, .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6, .page-content time, .page-content pre, .page-content blockquote  {
 	max-width: 670px;
 	margin: 0 auto;
 	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.page-content ul, .page-content ol, .page-content dl {
+	max-width: 670px;
+	margin: 0 auto;
+	padding-left: 40px;
 	padding-right: 10px;
 }
 
@@ -108,9 +115,4 @@ blockquote {
 	border-left: 8px solid var(--blockquote-border);
 	background-color: var(--blockquote-background);
 	font-size: 0.955em;
-}
-
-ul, ol, dl {
-	padding-right: 0;
-	padding-left: 40px;
 }
