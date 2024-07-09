@@ -402,6 +402,6 @@ video {
 	border: none;
 }
 
-.protos-grid-container img {
+img.photos-grid-item {
 	border-radius: 0 !important;
 }
