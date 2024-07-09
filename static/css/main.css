@@ -224,9 +224,15 @@ blockquote {
 	font-size: 0.95em;
 }
 
-bockquote p {
+blockquote p {
 	padding-left: 0;
 }
+
+blockquote cite {
+	display: block;
+	text-align: right;
+}
+
 
 p code, li code {
 	background-color: var(--code-background);
