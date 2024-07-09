@@ -492,3 +492,7 @@ a.tinylytics_webring {
 	height: 1.75em;
 	border-radius: 100%;
 }
+
+.tinylytics_countries {
+	display: block;
+}
