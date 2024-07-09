@@ -21,6 +21,8 @@
     {{ .Content }}
   </article>
 
+  {{ end }}
+
   {{ if templates.Exists "partials/microhook-categories.html" }}
   {{ partial "microhook-categories.html" . }}
   {{ else }}
@@ -30,7 +32,6 @@
     <li><a href="{{ $href }}">{{ . }}</a></li>
     {{ end }}
   </ul>
-  {{ end }}
   {{ end }}
 
   {{ if templates.Exists "partials/microhook-after-post.html" }}
