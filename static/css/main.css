@@ -66,6 +66,8 @@ body {
 	padding: 2px;
 	border: 1px solid var(--profile-border);
 	transition: transform 0.3s ease-in-out;
+	width: 100px;
+	height: auto;
 }
 
 .site-header .profile_photo:hover {
