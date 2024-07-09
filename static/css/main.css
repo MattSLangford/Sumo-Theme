@@ -222,6 +222,7 @@ blockquote {
 	border-left: 8px solid var(--blockquote-border);
 	background-color: var(--blockquote-background);
 	font-size: 0.95em;
+	padding-left: 40px;
 }
 
 .page-content blockquote p {
