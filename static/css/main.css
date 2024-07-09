@@ -197,7 +197,7 @@ hr.article-break {
 	border: none;
 }
 
-a.post-date {
+a.post-date, .post-date-wrapper > time {
 	opacity: 0.3;
 	transition: opacity 0.1s ease-in;
 	text-transform: uppercase;
@@ -211,10 +211,6 @@ a.post-date:hover  {
 
 a.read-more {
 	border: none;
-}
-
-.post-date-wrapper > time {
-	opacity: 0.3;
 }
 
 .post {
