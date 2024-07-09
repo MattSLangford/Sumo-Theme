@@ -445,3 +445,10 @@ img.photos-grid-item {
 .microblog_text p {
 	padding: 0;
 }
+
+.microblog_reply_textarea textarea {
+	border: 1px solid var(--comment-border);
+	border-radius: 20px;
+	padding: 20px;
+	width: calc(100% - 40px);
+}
