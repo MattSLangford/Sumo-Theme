@@ -309,6 +309,7 @@ ul.reply-buttons, ul.post-tags {
 ul.post-tags {
 	opacity: 0.8;
 	font-size: 0.8em;
+	margin-bottom: 50px;
 }
 
 ul.post-tags:before {
