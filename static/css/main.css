@@ -336,6 +336,11 @@ button:hover, .conversation-on-mb:hover, .reply-on-mastodon:hover, .reply-by-ema
 	color: var(--button-text-hover);
 }
 
+button.did_select {
+	background-color: var(--button-background-hover);
+	cursor: not-allowed;
+}
+
 .footnotes {
 	font-size: 0.85em;
 	color: var(--footnotes);
