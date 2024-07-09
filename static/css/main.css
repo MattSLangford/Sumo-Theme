@@ -235,10 +235,14 @@ blockquote {
 	background-color: var(--blockquote-background);
 	color: var(--blockquote-text);
 	font-size: 0.95em;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .page-content blockquote p {
 	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 blockquote cite {
