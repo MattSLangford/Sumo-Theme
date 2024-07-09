@@ -145,6 +145,10 @@ body {
 	font-size: 2em;
 }
 
+.page-content h1.category-title {
+	margin-bottom: 50px;
+}
+
 .page-content h1.post-title {
 	margin: 0 auto;
 }
