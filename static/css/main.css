@@ -1,6 +1,6 @@
 :root {
 	--page-background: ;
-	--main-text: #1d1d1d;
+	--main-text: #4d4d4d;
 	--main-link: #000000;
 	--main-link-hover: #1d1d1d;
 	--main-link-border: #e1e1e1;
@@ -20,7 +20,7 @@
 	--hr: #f0f0f0;
 	--blockquote-border: #000000;
 	--blockquote-background: ;
-	--blockquote-text: #8c8c8c;
+	--blockquote-text: #1d1d1d;
 	--code-border: #e4e4e4;
 	--code-background: #fafafa;
 	--footnotes: #8c8c8c;
