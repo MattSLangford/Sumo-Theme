@@ -318,7 +318,7 @@ pre {
 	border: none;
 }
 
-button, .conversation-on-mb, .reply-on-mastodon, .reply-by-email, input:is([type="button"]) {
+button, .conversation-on-mb, .reply-on-mastodon, .reply-by-email, input:is([type="button"]), [type="submit"], [type="reset"]:disabled {
 	border: 1px solid var(--button-border);
 	background-color: var(--button-background);
 	color: var(--button-text);
@@ -330,7 +330,7 @@ button, .conversation-on-mb, .reply-on-mastodon, .reply-by-email, input:is([type
 	transition: background-color 0.1s ease-in;
 }
 
-button:hover, .conversation-on-mb:hover, .reply-on-mastodon:hover, .reply-by-email:hover, input:is([type="button"]):hover {
+button:hover, .conversation-on-mb:hover, .reply-on-mastodon:hover, .reply-by-email:hover, input:is([type="button"]):hover, [type="submit"]:hover, [type="reset"]:disabled:hover {
 	border-color: var(--button-border-hover);
 	background-color: var(--button-background-hover);
 	color: var(--button-text-hover);
