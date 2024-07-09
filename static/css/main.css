@@ -103,6 +103,11 @@ body {
 	padding-right: 20px;
 }
 
+.page-content li {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 .page-content p {
 	margin-top: 1em;
 	margin-bottom: 1em;
