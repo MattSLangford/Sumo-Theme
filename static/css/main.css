@@ -446,9 +446,13 @@ img.photos-grid-item {
 	padding: 0;
 }
 
-p.microblog_reply_textarea, p.microblog_reply_button {
+p.microblog_reply_textarea, p.microblog_reply_button, p.microblog_reply_signin {
 	padding-left: 0;
 	padding-right: 0;
+}
+
+p.microblog_reply_signin {
+	font-weight: 700;
 }
 
 .microblog_reply_textarea textarea {
