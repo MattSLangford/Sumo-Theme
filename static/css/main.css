@@ -372,13 +372,6 @@ ul.reply-buttons li, ul.post-tags li {
 	white-space: no-wrap;
 }
 
-ul.post-list {
-	list-style-type: none;
-	max-width: 670px;
-	padding-left: 20px;
-}
-
-
 footer {
 	text-align: center;
 	margin-top: 100px;

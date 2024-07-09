@@ -6,12 +6,12 @@
 	{{ end }}
 
 	<h1>Recent Replies</h1>
-	<ul class="post-list">
+	<div class="post-list">
 		{{ if .Site.Params.paginate_replies }}
 		{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "reply") }}
 		{{ $list := $paginator.Pages }}
 		{{ range $list  }}
-		<li class="h-entry">
+		<div class="h-entry">
 			{{ if .Title }}
 			<h1 class="p-name post-title"><a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a></h1>
 				{{ end }}
@@ -24,12 +24,12 @@
 				<div class="e-content">
 					{{ .Content }}
 				</div>
-		</li>
+		</div>
 		{{ end }}
 		{{ else }}
 		{{ $list := first 25 (where .Data.Pages.ByDate.Reverse "Type" "reply") }}
 		{{ range $list  }}
-		<li class="h-entry">
+		<div class="h-entry">
 			{{ if .Title }}
 			<h2 class="p-name"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
 			{{ end }}
@@ -42,10 +42,10 @@
 			<div class="e-content">
 				{{ .Content }}
 			</div>
-		</li>
+		</div>
 		{{ end }}
 		{{ end }}
-	</ul>
+	</div>
 
 	{{ if templates.Exists "partials/microhook-after-replies.html" }}
 	{{ partial "microhook-after-replies.html" . }}
