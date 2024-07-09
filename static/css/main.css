@@ -304,12 +304,18 @@ ul.reply-buttons, ul.post-tags {
 	padding-left: 20px;
 }
 
+ul.post-tags a {
+	opacity: 0.8;
+	font-size: 0.8em;
+}
+
 ul.reply-buttons li, ul.post-tags li {
 	display: inline;
 	margin-right: 0.2em;
 	line-height: 2em;
 	white-space: no-wrap;
 }
+
 
 footer {
 	text-align: center;
