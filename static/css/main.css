@@ -446,8 +446,9 @@ img.photos-grid-item {
 	padding: 0;
 }
 
-.microblog_reply_textarea {
-	padding: 0;
+p.microblog_reply_textarea {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .microblog_reply_textarea textarea {
