@@ -224,7 +224,7 @@ blockquote {
 	font-size: 0.95em;
 }
 
-blockquote p {
+.page-content blockquote p {
 	padding-left: 0;
 }
 
