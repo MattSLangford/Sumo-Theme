@@ -388,7 +388,7 @@ footer {
 .page-content p img {
 	width: calc(100% + 40px);
 	height: auto;
-	margin: 0 20px;
+	margin: 0 -20px;
 }
 
 /* IFRAME FIX */
