@@ -139,6 +139,7 @@ body {
 	padding-left: 0;
 	height: auto;
 	margin: 0 auto;
+	padding-bottom: 20px;
 }
 
 .page-content h1 {
@@ -383,6 +384,11 @@ footer {
 	opacity: 0.8;
 	font-size: 0.8em;
 	padding: 0 20px;
+}
+p > img {
+	width: calc(100% + 40px);
+	height: auto;
+	margin: 0 20px;
 }
 
 /* IFRAME FIX */
