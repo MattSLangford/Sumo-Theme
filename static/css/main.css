@@ -187,6 +187,10 @@ a:hover {
 	margin-top: 0;
 }
 
+a:not(:only-child):not(:empty) {
+  border-bottom: none;
+}
+
 hr {
 	margin-top: 3em;
 	margin-bottom: 3em;
