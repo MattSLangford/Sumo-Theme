@@ -302,6 +302,8 @@ a.footnote-ref {
 ul.reply-buttons, ul.post-tags {
 	list-style-type: none;
 	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
 }
 
 ul.post-tags {
@@ -311,6 +313,7 @@ ul.post-tags {
 
 ul.post-tags:before {
 	content: "Filed as: ";
+	font-weight: bold;
 }
 
 ul.reply-buttons li, ul.post-tags li {
