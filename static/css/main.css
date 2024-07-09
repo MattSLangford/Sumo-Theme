@@ -24,6 +24,10 @@
 	--blockquote-text: #4d4d4d;
 	--code-border: #e4e4e4;
 	--code-background: #fafafa;
+	--note: #FFF9C4;
+	--alert: #FAD2D2;
+	--aside: #F5F5F5;
+	--callout: #DDEBF7;
 	--footnotes: #8c8c8c;
 	--footnote-super: #000000;
 }
@@ -239,6 +243,26 @@ blockquote cite {
 	margin-top: 1em;
 }
 
+p.note, p.alert, p.aside, p.callout {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+p.note {
+	background-color: var(--note);
+}
+
+p.alert {
+	background-color: var(--alert);
+}
+
+p.aside {
+	background-color: var(--aside);
+}
+
+p.callout {
+	background-color: var(--callout);
+}
 
 p code, li code {
 	background-color: var(--code-background);
