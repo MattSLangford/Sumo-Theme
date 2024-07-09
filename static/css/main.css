@@ -318,7 +318,7 @@ pre {
 	border: none;
 }
 
-button, .conversation-on-mb, .reply-on-mastodon, .reply-by-email {
+button, .conversation-on-mb, .reply-on-mastodon, .reply-by-email, input:is([type="button"], [type="submit"], [type="reset"]):disabled {
 	border: 1px solid var(--button-border);
 	background-color: var(--button-background);
 	color: var(--button-text);
@@ -456,4 +456,5 @@ p.microblog_reply_textarea {
 	border-radius: 20px;
 	padding: 20px;
 	width: calc(100% - 40px);
+	resize: none;
 }
