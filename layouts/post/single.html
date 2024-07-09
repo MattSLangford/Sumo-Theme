@@ -10,7 +10,9 @@
     {{ if templates.Exists "partials/microhook-post-byline.html" }}
     {{ partial "microhook-post-byline.html" . }}
     {{ else }}
+    <div class="post-date-wrapper">
     <time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    </div>
     {{ end }}
     {{ if .Title }}
     <h1 class="p-name post-title">{{ .Title }}</h1>
