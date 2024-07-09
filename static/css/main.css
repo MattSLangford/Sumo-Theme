@@ -62,6 +62,11 @@ body {
 .site-header .profile_photo {
 	border-radius: 100%;
 	text-align: center;
+	transition: transform 0.3s ease-in-out;
+}
+
+.site-header .profile_photo:hover {
+	transform: scale(1.5);
 }
 
 .site-header h1 {
