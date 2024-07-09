@@ -5,7 +5,7 @@
 	{{ partial "microhook-before-replies.html" . }}
 	{{ end }}
 
-	<h1>Recent Replies</h1>
+	<h1 class="replies-title">Recent Replies</h1>
 	<div class="post-list">
 		{{ if .Site.Params.paginate_replies }}
 		{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "reply") }}
