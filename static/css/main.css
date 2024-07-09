@@ -31,6 +31,7 @@
 	--alert: #FAD2D2;
 	--aside: #F5F5F5;
 	--callout: #DDEBF7;
+	--microblog-conversation: #F5F5F5;
 	--footnotes: #8c8c8c;
 	--footnote-super: #000000;
 }
@@ -410,4 +411,11 @@ video {
 
 img.photos-grid-item {
 	border-radius: 0 !important;
+}
+
+/* MICROBLOG CONVERSATION */
+
+.microblog_conversation {
+	background: var(--conversation-background);
+	padding: 20px;
 }
