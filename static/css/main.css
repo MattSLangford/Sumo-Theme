@@ -235,7 +235,6 @@ blockquote {
 	background-color: var(--blockquote-background);
 	color: var(--blockquote-text);
 	font-size: 0.95em;
-	padding-left: 40px;
 }
 
 .page-content blockquote p {
