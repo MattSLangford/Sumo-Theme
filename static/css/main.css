@@ -199,9 +199,6 @@ hr.article-break {
 
 time {
 	display: block;
-}
-
-time, a.post-date {
 	text-transform: uppercase;
 	font-weight: 700;
 	border: none;
