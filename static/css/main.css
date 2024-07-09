@@ -5,6 +5,7 @@
 	--main-link-hover: #000000;
 	--main-link-border: #e1e1e1;
 	--main-link-border-hover: #000000;
+	--profile-border: #f0f0f0;
 	--navigation-button-border: #e4e4e4;
 	--navigation-button-background: ;
 	--navigation-button-border-hover: #000000;
@@ -62,6 +63,8 @@ body {
 .site-header .profile_photo {
 	border-radius: 100%;
 	text-align: center;
+	padding: 2px;
+	border: 1px solid var(--profile-border);
 	transition: transform 0.3s ease-in-out;
 }
 
