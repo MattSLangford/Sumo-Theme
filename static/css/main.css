@@ -309,6 +309,10 @@ ul.post-tags {
 	font-size: 0.8em;
 }
 
+ul.post-tags:before {
+	content: "Filed as: ";
+}
+
 ul.reply-buttons li, ul.post-tags li {
 	display: inline;
 	margin-right: 0.2em;
