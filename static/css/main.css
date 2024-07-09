@@ -43,6 +43,7 @@ body {
 	margin-top: 2em;
 	margin-bottom: 2em;
 	text-align: center;
+	padding: 0 20px;
 }
 
 .site-header a {
@@ -296,4 +297,5 @@ footer {
 	margin-bottom: 2em;
 	opacity: 0.8;
 	font-size: 0.8em;
+	padding: 0 20px;
 }
