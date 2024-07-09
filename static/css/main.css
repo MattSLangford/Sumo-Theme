@@ -224,6 +224,10 @@ blockquote {
 	font-size: 0.95em;
 }
 
+bockquote p {
+	padding-left: 0;
+}
+
 p code, li code {
 	background-color: var(--code-background);
 	border: 1px solid var(--code-border);
