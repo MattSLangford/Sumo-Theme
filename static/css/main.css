@@ -153,7 +153,7 @@ a {
 	color: var(--main-link);
 	text-decoration: none;
 	border-bottom: 2px solid var(--main-link-border);
-	transition: background-color 0.1s ease-in;
+	transition: border-color 0.1s ease-in;
 }
 
 a:hover {
@@ -200,7 +200,7 @@ time, a.post-date {
 
 a.post-date {
 	opacity: 0.3;
-	transition: background-color 0.1s ease-in;
+	transition: opacity 0.1s ease-in;
 }
 
 a.post-date:hover {
