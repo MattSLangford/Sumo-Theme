@@ -432,6 +432,14 @@ img.photos-grid-item {
 	display: initial;
 	padding: 2px;
 	border: 1px solid var(--profile-border);
+	border-radius: 100%;
+	max-width: 40px !important;
+	width: 40px;
+	vertical-align: middle;
+}
+
+.microblog_user {
+	font-weight: 700;
 }
 
 .microblog_text p {
