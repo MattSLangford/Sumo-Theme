@@ -11,6 +11,7 @@
 	--navigation-button-background-hover: #000000;
 	--navigation-text: #8c8c8c;
 	--navigation-text-hover: #f0f0f0;
+	--heading-color: #000000;
 	--button-border: #e4e4e4;
 	--button-background: ;
 	--button-border-hover: #000000;
@@ -138,6 +139,7 @@ body {
 .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6 {
 	margin-top: 1em;
 	line-height: 1.3;
+	color: var(--heading-color);
 }
 
 a {
