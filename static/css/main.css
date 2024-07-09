@@ -384,3 +384,20 @@ footer {
 	font-size: 0.8em;
 	padding: 0 20px;
 }
+
+/* IFRAME FIX */
+iframe {max-width: 100%;}
+
+/* MAKES VIDEO EMBEDS THAT DON'T USE IFRAME RESPONSIVE. DOES NOT WORK WITH YOUTUBE. */
+video {
+	width: 100% !important;
+	height: auto !important;
+	background: var(--code);
+	border-radius: 5px;
+}
+
+/* PHOTOS GRID CONTAINER FIXES */
+
+.photos-grid-container a {
+	border: none;
+}
