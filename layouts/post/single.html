@@ -19,7 +19,7 @@
     {{ end }}
   </header>
 
-  <article class="post-content e-content">
+  <article class="post-content e-content {{ if .Title }}with-title{{ else }}without-title{{ end }}">
     {{ .Content }}
   </article>
 
