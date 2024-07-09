@@ -299,12 +299,12 @@ a.footnote-ref {
 	border: none;
 }
 
-ul.reply-buttons {
+ul.reply-buttons, ul.post_tags {
 	list-style-type: none;
 	padding-left: 20px;
 }
 
-ul.reply-buttons li {
+ul.reply-buttons li, ul.post-tags li {
 	display: inline;
 	margin-right: 0.2em;
 	line-height: 2em;
