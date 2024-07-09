@@ -14,7 +14,9 @@
             {{ if templates.Exists "partials/microhook-post-list-byline.html" }}
             {{ partial "microhook-post-list-byline.html" . }}
             {{ else }}
+            <div class="post-date-wrapper">
             <a href="{{ .Permalink }}" class="post-date u-url"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "January 2, 2006" }}</time></a>
+            </div>
             {{ end }}
             {{ if .Title }}
                 <h1 class="post-title p-name"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
