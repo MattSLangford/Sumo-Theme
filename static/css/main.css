@@ -31,7 +31,7 @@
 	--alert: #FAD2D2;
 	--aside: #F5F5F5;
 	--callout: #DDEBF7;
-	--conversation-background: #F5F5F5;
+	--conversation-background: ;
 	--comment-border: #e4e4e4;
 	--footnotes: #8c8c8c;
 	--footnote-super: #000000;
@@ -418,15 +418,22 @@ img.photos-grid-item {
 
 .microblog_conversation {
 	background: var(--conversation-background);
-	padding: 20px;
+	padding-top: 20px;
 }
 
 .microblog_post {
 	border: 1px solid var(--comment-border);
 	padding: 20px;
 	border-radius: 20px;
+	margin-bottom: 20px;
 }
 
 .microblog_conversation img.microblog_avatar {
 	display: initial;
+	padding: 2px;
+	border: 1px solid var(--profile-border);
+}
+
+.microblog_text p {
+	padding: 0;
 }
