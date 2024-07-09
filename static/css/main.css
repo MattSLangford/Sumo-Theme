@@ -197,16 +197,13 @@ hr.article-break {
 	border: none;
 }
 
-time {
+a.post-date {
+	opacity: 0.3;
+	transition: opacity 0.1s ease-in;
 	display: block;
 	text-transform: uppercase;
 	font-weight: 700;
 	border: none;
-}
-
-a.post-date {
-	opacity: 0.3;
-	transition: opacity 0.1s ease-in;
 }
 
 a.post-date:hover {
