@@ -24,6 +24,8 @@
 	--blockquote-text: #4d4d4d;
 	--code-border: #e4e4e4;
 	--code-background: #fafafa;
+	--pre-border: #e4e4e4;
+	--pre-background: ;
 	--note: #FFF9C4;
 	--alert: #FAD2D2;
 	--aside: #F5F5F5;
@@ -275,9 +277,9 @@ p code, li code {
 
 
 pre {
-	background-color: var(--code-background);
-	border-top: 1px solid var(--code-border);
-	border-bottom: 1px solid var(--code-border);
+	background-color: var(--pre-background);
+	border-top: 1px solid var(--pre-border);
+	border-bottom: 1px solid var(--pre-border);
 	white-space: pre-wrap;
 	padding-top: 1em;
 	padding-bottom: 1em;
