@@ -209,6 +209,10 @@ a.post-date:hover  {
 	opacity: 1;
 }
 
+a.post-date:hover::after {
+	content: " ∞";
+}
+
 a.read-more {
 	border: none;
 }
