@@ -4,54 +4,56 @@
 {{ else }}
 <div class="archive h-feed {{ .Title }}">
 
-  <h2 class="p-name category-title">{{ .Title }}</h2>
-{{ if templates.Exists "partials/microhook-category-header.html" }}
-  {{ partial "microhook-category-header.html" . }}
-{{ end }}
-  <ul class="post-list">
-    {{ $paginator := .Paginate (where .Pages.ByDate.Reverse "Type" "post") }}
-    {{ range .Paginator.Pages  }}
-    <div class="post-preview h-entry {{ range .Params.categories }} {{ . | urlize | lower }}{{ end }}">
-      {{ if templates.Exists "partials/microhook-post-list-byline.html" }}
-      {{ partial "microhook-post-list-byline.html" . }}
-      {{ else }}
-      <div class="post-date-wrapper">
-      <a href="{{ .Permalink }}" class="post-date u-url"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "Jan 2, 2006" }}</time> ∞</a>
-      </div>
-      {{ end }}
-      {{ if .Title }}
-          <h1 class="post-title p-name"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-              {{ if in .RawContent "<!--more-->" }}
-              <div class="p-summary">
-                  {{ $splitContents := split .RawContent "<!--more-->" }}
-                  {{ index $splitContents 0 | markdownify }}
-                  <p><a class="read-more" href="{{ .Permalink }}">
-                      {{ if templates.Exists "partials/microhook-read-more-text.html" }}
-                      {{ partial "microhook-read-more-text.html" . }}
-                      {{ else }}
-                      Read More →
-                      {{ end }}
-                  </a></p>
-              </div>
-              {{ else }}
-              <div class="e-content">
+  <h1 class="p-name category-title">{{ .Title }}</h1>
+  {{ if templates.Exists "partials/microhook-category-header.html" }}
+    {{ partial "microhook-category-header.html" . }}
+  {{ end }}
+
+  <div class="post_list" role="main">
+      {{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") }}
+      {{ range .Paginator.Pages }}
+      <div class="post-preview h-entry {{ range .Params.categories }} {{ . | urlize | lower }}{{ end }}">
+          {{ if templates.Exists "partials/microhook-post-list-byline.html" }}
+          {{ partial "microhook-post-list-byline.html" . }}
+          {{ else }}
+          <div class="post-date-wrapper">
+          <a href="{{ .Permalink }}" class="post-date u-url"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "January 2, 2006" }}</time></a>
+          </div>
+          {{ end }}
+          {{ if .Title }}
+              <h1 class="post-title p-name"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+                  {{ if in .RawContent "<!--more-->" }}
+                      <div class="p-summary">
+                          {{ $splitContents := split .RawContent "<!--more-->" }}
+                          {{ $summary := index $splitContents 0 }}
+                          {{ $summary := replaceRE "\\[\\^.*?\\]" "" $summary }}
+                          {{ $summary := replaceRE "\\n\\[\\^.*?\\]:.*" "" $summary }}
+                          <p>{{ $summary | markdownify }}</p>
+                          <p><a class="read-more" href="{{ .Permalink }}"><button>
+                              {{ if templates.Exists "partials/microhook-read-more-text.html" }}
+                              {{ partial "microhook-read-more-text.html" . }}
+                              {{ else }}
+                              Read More →
+                              {{ end }}
+                          </button></a></p>
+                      </div>
+                  {{ else }}
+                      <div class="e-content with-title">
+                          {{ .Content }}
+                      </div>
+                  {{ end }}
+          {{ else }}
+              <div class="e-content without-title">
                   {{ .Content }}
               </div>
-              {{ end }}
-      {{ else }}
-          <div class="e-content">
-              {{ .Content }}
-          </div>
+          {{ end }}
+          {{ if templates.Exists "partials/microhook-below-post-in-list.html" }}
+          {{ partial "microhook-below-post-in-list.html" . }}
+          {{ end }}
+      </div>
+      <hr class="article-break">
       {{ end }}
-      {{ if templates.Exists "partials/microhook-below-post-in-list.html" }}
-      {{ partial "microhook-below-post-in-list.html" . }}
-      {{ end }}
-      {{ if .Params.bluesky }}
-      <a class="u-syndication" {{ printf "href=%q" .Params.bluesky.url | safeHTMLAttr }} style="display: none;">Also on Bluesky</a>
-      {{ end }}
-    </div>
-    {{ end }}
-  </ul>
+  </div>
 </div>
 {{ if templates.Exists "partials/microhook-pagination.html" }}
 {{ partial "microhook-pagination.html" . }}
