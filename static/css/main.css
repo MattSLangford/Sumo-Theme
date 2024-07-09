@@ -471,3 +471,24 @@ p.microblog_reply_signin {
 	width: calc(100% - 40px);
 	resize: none;
 }
+
+
+/* Tinylytics */
+
+.tinylytics_webring {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	gap: 3px;
+	justify-content: center;
+}
+
+a.tinylytics_webring {
+	text-decoration: none;
+}
+
+.tinylytics_webring_avatar {
+	width: auto;
+	height: 1.75em;
+	border-radius: 100%;
+}
