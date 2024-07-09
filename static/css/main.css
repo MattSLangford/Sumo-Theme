@@ -5,7 +5,6 @@
 	--main-link-hover: #000000;
 	--main-link-border: #e1e1e1;
 	--main-link-border-hover: #000000;
-	--post-title-link-border-hover: #e1e1e1;
 	--profile-border: #f0f0f0;
 	--navigation-button-border: #e4e4e4;
 	--navigation-button-background: ;
@@ -152,10 +151,11 @@ body {
 
 .page-content h1.post-title a {
 	border: none;
+	transition: border 0.1s ease-in;
 }
 
 .page-content h1.post-title a:hover {
-	border-bottom: 2px solid var(--post-title-link-border-hover);
+	border-bottom: 2px solid var(--main-link-border-hover);
 }
 
 .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6 {
