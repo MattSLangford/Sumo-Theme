@@ -401,3 +401,7 @@ video {
 .photos-grid-container a {
 	border: none;
 }
+
+.protos-grid-container img {
+	border-radius: 0 !important;
+}
