@@ -345,6 +345,10 @@ button.did_select {
 	cursor: not-allowed;
 }
 
+a.button {
+	border-bottom: none;
+}
+
 .footnotes {
 	font-size: 0.85em;
 	color: var(--footnotes);
