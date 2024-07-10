@@ -290,7 +290,7 @@ p.callout {
 	background-color: var(--callout);
 }
 
-p code, li code {
+p code, li code, span.tinylytics_hits {
 	background-color: var(--code-background);
 	border: 1px solid var(--code-border);
 	padding-left: 0.5em;
