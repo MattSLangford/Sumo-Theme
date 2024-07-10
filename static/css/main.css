@@ -187,10 +187,6 @@ a:hover {
 	margin-top: 0;
 }
 
-a:not(:only-child):not(:empty) {
-  border-bottom: none;
-}
-
 hr {
 	margin-top: 3em;
 	margin-bottom: 3em;
@@ -402,7 +398,9 @@ footer {
 }
 
 footer i {
-	font-size: 1em;
+	font-size: large;
+	padding-right: 3px;
+	padding-left: 3px;
 }
 
 .page-content p img {
@@ -490,10 +488,12 @@ p.microblog_reply_signin {
 	flex-direction: row;
 	gap: 3px;
 	justify-content: center;
+	margin-bottom: 5px;
 }
 
 a.tinylytics_webring {
 	text-decoration: none;
+	border: none;
 }
 
 .tinylytics_webring_avatar {
