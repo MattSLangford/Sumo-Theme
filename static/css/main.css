@@ -217,7 +217,7 @@ a.post-date, .post-date-wrapper > time, .microblog_time a {
 	border: none;
 }
 
-a.post-date:hover  {
+a.post-date:hover, .microblog_time a:hover  {
 	opacity: 1;
 }
 
