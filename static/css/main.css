@@ -339,6 +339,7 @@ button:hover, .conversation-on-mb:hover, .reply-on-mastodon:hover, .reply-by-ema
 button.did_select {
 	background-color: var(--button-background-hover);
 	cursor: not-allowed;
+	color: var(--button-text-hover);
 }
 
 a.button {
