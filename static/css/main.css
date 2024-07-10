@@ -209,7 +209,7 @@ hr.article-break {
 	border: none;
 }
 
-a.post-date, .post-date-wrapper > time {
+a.post-date, .post-date-wrapper > time, .microblog_time a {
 	opacity: 0.3;
 	transition: opacity 0.1s ease-in;
 	text-transform: uppercase;
@@ -469,6 +469,14 @@ p.microblog_reply_textarea, p.microblog_reply_button, p.microblog_reply_signin {
 
 p.microblog_reply_signin {
 	font-weight: 700;
+}
+
+.microblog_time {
+	font-size: 0.8em;
+}
+
+.microblog_time a {
+	font-weight: normal;
 }
 
 .microblog_reply_textarea textarea {
