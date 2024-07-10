@@ -475,10 +475,6 @@ p.microblog_reply_signin {
 	font-size: 0.8em;
 }
 
-.microblog_time a {
-	font-weight: normal;
-}
-
 .microblog_reply_textarea textarea {
 	border: 1px solid var(--comment-border);
 	border-radius: 20px;
