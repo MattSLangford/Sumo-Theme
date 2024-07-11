@@ -338,6 +338,7 @@ button, .conversation-on-mb, .reply-on-mastodon, .reply-by-email, input:is([type
 	font-weight: 500;
 	cursor: pointer;
 	transition: background-color 0.1s ease-in;
+	margin: 3px 0;
 }
 
 button:hover, .conversation-on-mb:hover, .reply-on-mastodon:hover, .reply-by-email:hover, input:is([type="button"]):hover, [type="submit"]:hover, [type="reset"]:disabled:hover {
