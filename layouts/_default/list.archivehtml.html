@@ -8,9 +8,12 @@
 	{{ if gt (len $list) 0 }}
 	<div class="archive-categories">
 		<h3>Categories</h3>
+		<div class="category-list">
 			{{ range $list }}
 			<a href="{{ .Permalink }}"><button>{{ .Title }}</button></a>
-			{{ end }}	</div>
+			{{ end }}
+		</div>
+	</div>
 	{{ end }}
 	<div class="full-archives h-feed">
 		<h3>Full Post List</h3>
