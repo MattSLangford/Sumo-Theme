@@ -423,6 +423,8 @@ footer i {
 	background-color: var(--page-fold);
 	padding-top: 50px;
 	padding-bottom: 30px;
+	margin-bottom: 40px;
+	text-align: center;
 }
 
 /* IFRAME FIX */
