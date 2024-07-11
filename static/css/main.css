@@ -90,7 +90,7 @@ body {
 .site-header nav ul li {
 	display: inline;
 	margin: 0 0.2em;
-	line-height: 2em;
+	line-height: 2.5;
 	white-space: no-wrap;
 }
 
