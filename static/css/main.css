@@ -124,6 +124,10 @@ body {
 	padding-right: 20px;
 }
 
+.page-content ul.bookshelf.bookshelf {
+	padding-top: 20px;
+}
+
 .page-content li {
 	margin-top: 15px;
 	margin-bottom: 15px;
