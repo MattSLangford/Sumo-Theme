@@ -36,6 +36,7 @@
 	--footnotes: #8c8c8c;
 	--footnote-super: #000000;
 	--page-fold: #F5F5F5;
+	--video-placeholder: #fafafa;
 }
 
 html {
@@ -435,7 +436,7 @@ iframe {max-width: 100%;}
 video {
 	width: 100% !important;
 	height: auto !important;
-	background: var(--code);
+	background: var(--video-placeholder);
 	border-radius: 5px;
 }
 
