@@ -126,6 +126,10 @@ body {
 	padding-right: 20px;
 }
 
+.page-content .category-list {
+	margin-top: 20px;
+}
+
 .page-content ul.bookshelf.bookshelf {
 	padding-top: 20px;
 }
