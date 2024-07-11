@@ -35,6 +35,7 @@
 	--comment-border: #e4e4e4;
 	--footnotes: #8c8c8c;
 	--footnote-super: #000000;
+	--page-fold: #F5F5F5;
 }
 
 html {
@@ -418,6 +419,12 @@ footer i {
 	margin: 0 -20px;
 }
 
+.page-fold {
+	background-color: var(--page-fold);
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
 /* IFRAME FIX */
 iframe {max-width: 100%;}
 
@@ -517,4 +524,5 @@ a.tinylytics_webring {
 
 .tinylytics_countries {
 	display: block;
+	font-size: 1.2em;
 }
