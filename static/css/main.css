@@ -37,6 +37,7 @@
 	--footnote-super: #000000;
 	--page-fold: #F5F5F5;
 	--video-placeholder: #fafafa;
+	--shared-note: #FFF9C4;
 }
 
 html {
@@ -533,4 +534,11 @@ a.tinylytics_webring {
 .tinylytics_countries {
 	display: block;
 	font-size: 1.2em;
+}
+
+/* PRIVATE NOTES */
+.microblog_shared_note {
+	background-color: var(--shared-note);
+	text-align: center;
+	padding: 20px;
 }
