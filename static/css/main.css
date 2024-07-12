@@ -425,7 +425,7 @@ footer i {
 	padding-left: 3px;
 }
 
-.page-content p img, .page-content p video {
+.page-content p img {
 	width: calc(100% + 40px);
 	height: auto;
 	margin: 0 -20px;
