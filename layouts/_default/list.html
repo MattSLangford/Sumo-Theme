@@ -3,12 +3,10 @@
 {{ partial "microhook-archive-post-list.html" . }}
 {{ else }}
 <div class="archive h-feed {{ .Title }}">
-
   <h1 class="p-name category-title">{{ .Title }}</h1>
   {{ if templates.Exists "partials/microhook-category-header.html" }}
     {{ partial "microhook-category-header.html" . }}
   {{ end }}
-
   <div class="post_list" role="main">
       {{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") }}
       {{ range .Paginator.Pages }}
