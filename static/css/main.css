@@ -358,11 +358,11 @@ a.button {
 	border-bottom: none;
 }
 
-a:has(button) {
+.page-content a:has(button) {
 	border-bottom: none; /* Remove bottom border from <a> containing <button> */
 }
 
-p:has(video) {
+.page-content p:has(video) {
 	padding-left: 0;
 	padding-right: 0;
 }
