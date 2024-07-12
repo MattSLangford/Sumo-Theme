@@ -362,6 +362,11 @@ a:has(button) {
 	border-bottom: none; /* Remove bottom border from <a> containing <button> */
 }
 
+p:has(video) {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .footnotes {
 	font-size: 0.85em;
 	color: var(--footnotes);
