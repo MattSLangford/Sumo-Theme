@@ -37,6 +37,8 @@
 	--footnote-super: #000000;
 	--page-fold: #F5F5F5;
 	--video-placeholder: #fafafa;
+	--comment-form-background-color: #fafafa;
+	--comment-form-border-color: #fafafa;
 	--shared-note: #FFF9C4;
 }
 
@@ -533,6 +535,13 @@ p.microblog_reply_signin {
 	padding: 20px;
 	width: calc(100% - 40px);
 	resize: none;
+}
+
+form.microblog_reply_form {
+	background-color: var(--comment-form-background-color);
+	border: 1px solid var(--comment-form-border-color);
+	padding: 10px 20px;
+	border-radius: 20px;
 }
 
 
