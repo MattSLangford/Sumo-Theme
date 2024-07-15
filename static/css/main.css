@@ -472,7 +472,7 @@ video {
 
 /* PHOTOS GRID CONTAINER FIXES */
 
-.photos-grid-container a {
+.photos-grid-container a, .photos-grid a {
 	border: none;
 }
 
