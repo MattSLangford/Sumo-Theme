@@ -387,6 +387,10 @@ a.button {
 	padding-right: 0;
 }
 
+.page-content p:has(img + img) img {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
 .footnotes {
 	font-size: 0.85em;
 	color: var(--footnotes);
