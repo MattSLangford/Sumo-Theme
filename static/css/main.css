@@ -300,7 +300,7 @@ blockquote cite {
 	margin-top: 1em;
 }
 
-p.note, p.alert, p.aside, p.callout {
+p.note, p.alert, p.aside, p.callout, aside {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -313,7 +313,7 @@ p.alert {
 	background-color: var(--alert);
 }
 
-p.aside {
+p.aside, aside {
 	background-color: var(--aside);
 }
 
