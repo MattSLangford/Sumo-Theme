@@ -302,6 +302,10 @@ blockquote cite {
 	margin-top: 1em;
 }
 
+blockquote.large {
+	font-size: 2em;
+}
+
 p.note, p.alert, p.aside, p.callout, aside {
 	padding-top: 10px;
 	padding-bottom: 10px;
