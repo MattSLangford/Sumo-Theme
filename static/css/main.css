@@ -374,6 +374,10 @@ button:hover, .conversation-on-mb:hover, .reply-on-mastodon:hover, .reply-by-ema
 	color: var(--button-text-hover);
 }
 
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
 button.did_select {
 	background-color: var(--button-background-hover);
 	cursor: not-allowed;
