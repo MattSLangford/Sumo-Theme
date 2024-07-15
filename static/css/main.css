@@ -387,10 +387,6 @@ a.button {
 	padding-right: 0;
 }
 
-.page-content p:has(img + img) img {
-  margin-bottom: 10px; /* Adjust the value as needed */
-}
-
 .footnotes {
 	font-size: 0.85em;
 	color: var(--footnotes);
@@ -453,6 +449,7 @@ footer i {
 	width: calc(100% + 40px);
 	height: auto;
 	margin: 0 -20px;
+	margin-bottom: 20px;
 }
 
 .page-fold {
@@ -506,6 +503,7 @@ img.photos-grid-item {
 	max-width: 40px !important;
 	width: 40px;
 	vertical-align: middle;
+	margin-bottom: 0;
 }
 
 .microblog_user {
