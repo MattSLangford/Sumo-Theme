@@ -355,7 +355,7 @@ pre {
 	border: none;
 }
 
-button, .conversation-on-mb, .reply-on-mastodon, .reply-by-email, input:is([type="button"]), [type="submit"], [type="reset"]:disabled, input:is([type="search"]) {
+button, .conversation-on-mb, .reply-on-mastodon, .reply-by-email, input:is([type="button"]), [type="submit"], [type="reset"]:disabled, input[type=search], input[type=email] {
 	border: 1px solid var(--button-border);
 	background-color: var(--button-background);
 	color: var(--button-text);
