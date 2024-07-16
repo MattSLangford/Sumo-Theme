@@ -585,9 +585,11 @@ a.tinylytics_webring {
 
 /* EMBED RESPONSIVELY FIXES */
 .embed-container {
-  position: relative;
   width: 100%;
-  max-width: 670px; /* Maximum width of the container */
+  max-width: 670px !important;
+  margin: 0 auto;
+  height: auto !important;
+  padding-bottom: 0 !important;
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
