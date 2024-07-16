@@ -40,6 +40,7 @@
 	--comment-form-background-color: #fafafa;
 	--comment-form-border-color: #fafafa;
 	--shared-note: #FFF9C4;
+	--red-text: #ff0000;
 }
 
 /* Font stacks */
@@ -468,6 +469,10 @@ footer i {
 	margin-top: 40px;
 	margin-bottom: 40px;
 	text-align: center;
+}
+
+.red {
+	color: var(--red-text);
 }
 
 /* MAKES VIDEO EMBEDS THAT DON'T USE IFRAME RESPONSIVE. DOES NOT WORK WITH YOUTUBE. */
