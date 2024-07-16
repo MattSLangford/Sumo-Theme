@@ -166,7 +166,7 @@ body {
 	margin-bottom: 1em;
 }
 
-.page-content img, .page-content video, .page-content .embed-container {
+.page-content img, .page-content video {
 	display: block;
 	width: 100%;
 	max-width: 700px;
