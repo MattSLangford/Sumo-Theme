@@ -114,7 +114,7 @@ body {
 	display: inline;
 	margin: 0 2px;
 	line-height: 2.5;
-	white-space: no-wrap;
+	white-space: nowrap;
 }
 
 .site-header nav a {
