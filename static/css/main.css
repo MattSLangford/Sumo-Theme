@@ -134,6 +134,9 @@ body {
 	color: var(--navigation-text-hover);
 }
 
+.post-content {
+	max-width: 670px;
+}
 
 .page-content p, .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6, .page-content pre, .page-content blockquote, .page-content .post-date-wrapper, .page-content .reply-to, .microblog_conversation, .tinylytics_countries, .custom_footer, .page-content ul.bookshelf.bookshelf, .page-content .category-list, .site-nav, .quoteback-container, .gist {
 	max-width: 670px;
