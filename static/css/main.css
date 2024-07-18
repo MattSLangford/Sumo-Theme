@@ -473,8 +473,8 @@ footer i {
 	margin-top: 40px;
 	margin-bottom: 40px;
 	text-align: center;
-	width: calc(100vw - 50% + 350px); /* Calculate full width considering container's max-width */
 	margin-left: calc(-50vw + 50%);
+	margin-right: calc(-50vw + 50%);
 }
 
 .page-fold-content h1, .page-fold-content h2, .page-fold-content h3, .page-fold-content h4, .page-fold-content h5, .page-fold-content h6 {
