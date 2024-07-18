@@ -141,11 +141,6 @@ body {
 	margin: 0 auto;
 }
 
-.post-preview {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
 .page-content p, .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6, .page-content pre, .page-content blockquote, .page-content .post-date-wrapper, .page-content .reply-to, .microblog_conversation, .tinylytics_countries, .custom_footer, .page-content ul.bookshelf.bookshelf, .page-content .category-list, .site-nav, .quoteback-container, .gist {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -244,8 +239,8 @@ hr.article-break {
 	max-width: 100%;
 	height: 1px;
 	background-color: var(--hr);
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top: 3em;
+	margin-bottom: 3em;
 	display: block;
 	border: none;
 }
