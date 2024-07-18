@@ -135,7 +135,7 @@ body {
 	color: var(--navigation-text-hover);
 }
 
-.page, .post-content, .post-preview, .post, .archive, .comments, .content-meta {
+.page, .post-content, .post-preview, .post, .archive, .comments, .content-meta, .page-fold-content {
 	max-width: 700px;
 	margin: 0 auto;
 }
@@ -467,11 +467,17 @@ footer i {
 
 .page-fold {
 	background-color: var(--page-fold);
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 30px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	text-align: center;
+	width: calc(100vw - 50% + 350px); /* Calculate full width considering container's max-width */
+	margin-left: calc(-50vw + 50%);
+}
+
+.page-fold .page-fold-content {
+
 }
 
 .red {
