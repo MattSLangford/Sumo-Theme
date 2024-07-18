@@ -476,8 +476,8 @@ footer i {
 	margin-left: calc(-50vw + 50%);
 }
 
-.page-fold .page-fold-content {
-
+.page-fold-content h1, .page-fold-content h2, .page-fold-content h3, .page-fold-content h4, .page-fold-content h5, .page-fold-content h6 {
+	margin-top: 0;
 }
 
 .red {
