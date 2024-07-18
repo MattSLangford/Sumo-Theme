@@ -478,6 +478,15 @@ footer i {
 	color: var(--red-text);
 }
 
+figure {
+	margin: 0;
+}
+
+figcaption {
+	text-align: center;
+	font-style: italic;
+}
+
 /* MAKES VIDEO EMBEDS THAT DON'T USE IFRAME RESPONSIVE. DOES NOT WORK WITH YOUTUBE. */
 video {
 	width: 100% !important;
