@@ -231,7 +231,7 @@ hr {
 	width: 60%;
 	max-width: 400px;
 	height: 5px;
-	border-radius: 1em;
+	border-radius: 20px;
 }
 
 hr.article-break {
