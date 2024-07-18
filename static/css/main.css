@@ -136,7 +136,7 @@ body {
 	color: var(--navigation-text-hover);
 }
 
-.page, .post-content, .post-preview, .post, .archive, .comments, .content-meta, .page-fold-content {
+.page, .post-content, .post-preview, .post, .archive, .comments, .content-meta, .page-fold-content, footer {
 	max-width: 700px;
 	margin: 0 auto;
 }
