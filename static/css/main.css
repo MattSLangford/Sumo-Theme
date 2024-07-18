@@ -493,6 +493,10 @@ figcaption {
 	font-style: italic;
 }
 
+table {
+	margin: 0 auto;
+}
+
 /* MAKES VIDEO EMBEDS THAT DON'T USE IFRAME RESPONSIVE. DOES NOT WORK WITH YOUTUBE. */
 video {
 	width: 100% !important;
