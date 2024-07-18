@@ -136,7 +136,7 @@ body {
 }
 
 .page, .post-content, .post-preview, .post, .archive {
-	max-width: 670px;
+	max-width: 700px;
 	margin: 0 auto;
 }
 
@@ -146,7 +146,7 @@ body {
 }
 
 .page-content ul, .page-content ol, .page-content dl {
-	max-width: 650px;
+	max-width: 680px;
 	padding-left: 50px;
 	padding-right: 20px;
 }
@@ -593,7 +593,7 @@ a.tinylytics_webring {
 /* EMBED RESPONSIVELY FIXES */
 .embed-container {
   width: 100%;
-  max-width: 670px !important;
+  max-width: 700px !important;
   margin: 0 auto;
   height: auto !important;
   padding-bottom: 0 !important;
@@ -617,7 +617,7 @@ a.tinylytics_webring {
 
 iframe {
 	max-width: 100%;
-	width: 670px;
+	width: 700px;
 	max-width: 100%;
 	height: auto;
 	aspect-ratio: 16 / 9;
