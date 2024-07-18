@@ -290,6 +290,7 @@ blockquote {
 	font-size: 0.95em;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	margin-left: 0;
 }
 
 .page-content blockquote p {
