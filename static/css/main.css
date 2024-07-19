@@ -455,8 +455,8 @@ footer {
 
 footer i {
 	font-size: x-large;
-	padding-right: 3px;
-	padding-left: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 
 footer a:has(i), footer a:has(i):hover {
