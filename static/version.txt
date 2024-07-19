@@ -1,3 +1,5 @@
-Sumo Theme for Micro.blog Version 0.6.5
+Sumo Theme for Micro.blog Version 0.6.6
 Created by Matt Langford (mattlangford.com)
 Documentation: sumo.micro.blog
+
+<audio src="https://mattlangford.com/uploads/2024/input-device-recording-20240719-1410-default-2.mp3">
