@@ -459,7 +459,7 @@ footer i {
 	padding-left: 3px;
 }
 
-footer a:has(i) {
+footer a:has(i), footer a:has(i):hover {
 	border: none;
 }
 
