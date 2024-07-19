@@ -459,6 +459,10 @@ footer i {
 	padding-left: 3px;
 }
 
+footer a:has(i) {
+	border: none;
+}
+
 .page-content p img {
 	width: calc(100% + 40px);
 	height: auto;
