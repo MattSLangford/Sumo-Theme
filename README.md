@@ -1,6 +1,6 @@
 # Sumo Theme for Micro.blog
 
-![Sumo Theme for Micro.blog Logo](https://github.com/MattSLangford/Sumo-Theme/blob/main/screenshot.png?raw=true)
+![Sumo Theme for Micro.blog Logo](https://github.com/MattSLangford/Sumo-Theme/blob/main/screenshot_new.png?raw=true)
 
 
 ### Description
