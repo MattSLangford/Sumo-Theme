@@ -296,7 +296,13 @@ blockquote {
 
 .page-content blockquote p {
 	padding-left: 0;
+}
+
+.page-content blockquote p:first-of-type {
 	margin-top: 0;
+}
+
+.page-content blockquote p:last-of-type {
 	margin-bottom: 0;
 }
 
