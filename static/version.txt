@@ -1,4 +1,4 @@
-Sumo Theme for Micro.blog Version 1.0.3
+Sumo Theme for Micro.blog Version 1.0.4
 Created by Matt Langford (mattlangford.com)
 Documentation: sumo.micro.blog
 
