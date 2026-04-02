@@ -44,7 +44,7 @@
 </style>
 
 <div class="microblog_email">
-	<img src="{{ .Site.Author.avatar }}" width="80" height="80" alt="Profile icon" class="email-profile-photo">
+	<img src="{{ .Site.Params.author.avatar }}" width="80" height="80" alt="Profile icon" class="email-profile-photo">
 	<h2>{{ .Site.Title }}</h2>
 
 	{{ if gt (len .Intro) 0 }}
