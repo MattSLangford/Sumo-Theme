@@ -17,9 +17,12 @@
     <meta name="description" content="{{ .Site.Params.itunes_description }}">
     {{ partial "custom/socialcardimage" . }}
   {{ else }}
-    <meta name="twitter:description" content="{{ .Summary | truncate 60 }}">
-    <meta name="og:description" content="{{ .Summary | truncate 60 }}">
-    <meta name="description" content="{{ .Summary }}">
+    {{ $description := .Summary }}
+    {{ with .Params.summary }}{{ $description = . | markdownify }}{{ end }}
+    {{ $description = $description | plainify | htmlUnescape }}
+    <meta name="twitter:description" content="{{ $description | truncate 60 }}">
+    <meta name="og:description" content="{{ $description | truncate 60 }}">
+    <meta name="description" content="{{ $description }}">
     {{- range .Params.photos -}}
       <meta name="twitter:image" content="{{ . }}">
       <meta property="og:image" content="{{ . }}">
