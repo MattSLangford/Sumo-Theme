@@ -2,7 +2,7 @@
 {{- if .Site.Params.socialCardImage -}}
     {{- $socialCardImage = .Site.Params.socialCardImage | relURL -}}
 {{- else -}}
-    {{- $socialCardImage = .Site.Author.avatar | relURL -}}
+    {{- $socialCardImage = .Site.Params.author.avatar | relURL -}}
 {{- end -}}
 <meta name="twitter:image" content="{{ $socialCardImage }}">
 <meta property="og:image" content="{{ $socialCardImage }}">
